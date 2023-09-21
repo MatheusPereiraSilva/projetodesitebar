@@ -1,0 +1,45 @@
+.banner {
+    background: #9C9C9C;
+    box-shadow: 0px -50px 0px #FFf inset;
+}
+
+.banner-container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 0 40px;
+}
+
+.banner-conteudo {
+    max-width: 400px;
+}
+
+.banner-container h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    grid-column: 1;
+    max-width: 400px;
+}
+
+.banner-container p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    grid-column: 1;
+}
+
+.banner-container a {
+    color: #320;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 5px;
+    background: var(--grad, linear-gradient(180deg, #FFBF00 0%, #F2A60C 100%));
+    grid-column: 1;
+    
+}
+
+.banner-container img {
+    grid-column: 2;
+    grid-row: 1;
+}

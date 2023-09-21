@@ -1,0 +1,22 @@
+/*
+Theme Name: Bar Da Galera
+Theme URI: http://bargalera.com
+Author: Matheus Pereira
+Author URI: http://backgoundgalerinhalegal.com/
+Description: Tema criado para o bar da galera
+Version: 1.0
+*/
+
+
+@import url(./estilos/reset.css);
+@import url(./estilos/header.css);
+@import url(./estilos/banner.css);
+@import url(./estilos/delicias.css);
+@import url(./estilos/informacao.css);
+@import url(./estilos/depoimento.css);
+@import url(./estilos/espaco.css);
+@import url(./estilos/sobre.css);
+@import url(./estilos/comidas.css);
+@import url(./estilos/responsivo.css);
+@import url(./estilos/animation.css);
+

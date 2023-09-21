@@ -1,0 +1,118 @@
+.banner2 {
+    background: #9C9C9C;
+}
+
+.banner-container2 {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 0 40px;
+}
+
+.banner-container2 h1 {
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    grid-column: 1;
+    max-width: 400px;
+}
+
+.banner-container2 p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    grid-column: 1;
+}
+
+.banner-container2 a {
+    color: #320;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 5px;
+    background: var(--grad, linear-gradient(180deg, #FFBF00 0%, #F2A60C 100%));
+    grid-column: 1;
+}
+
+.comidas-texto {
+    background: #1E1E1E;
+    margin-top: -100px;
+}
+
+.texto-das-comidas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 50px auto;
+    margin-bottom: 30px;
+}
+
+.texto-das-comidas p {
+    max-width: 250px;
+    color: #FFBF00;
+    margin-right: 100px;
+    padding: 10px 0px 20px 0px;
+    margin-bottom: 40px;
+}
+
+.slider {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.foto-principal {
+    display: flex;
+    max-width: 500px;
+    height: 500px;
+    /* overflow: hidden; */
+    transition: all ease 1s;
+    margin: 0 auto;
+}
+
+.foto-principal img {
+    margin-right: 30px;
+    
+}
+
+.slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.slide-item img {
+    margin-right: 30px;
+    max-width: 500px;
+    height: auto;
+}
+
+.slider-item {
+    text-align: center;
+}
+
+.slider-item img {
+    max-width: 50px;
+    margin: 10px 5px;
+    cursor: pointer;
+    
+}
+
+
+.footer {
+    padding: 30px;
+    background: #1E1E1E;
+    color: #FFBF00;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    padding: 10px 32px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: var(--grad, linear-gradient(180deg, #FFBF00 0%, #F2A60C 100%));
+    color:  #332200;
+}

@@ -1,0 +1,5 @@
+.elemento {
+    opacity: 0;
+    transform: translateY(20px); /* Pode ser usado para mover o elemento para cima ou para baixo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Adicione transições para suavizar a animação */
+}

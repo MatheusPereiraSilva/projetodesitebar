@@ -1,0 +1,22 @@
+.depoimento {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    background: #FFBF00;
+    margin-top: -50px;
+}
+
+.depoimento-texto {
+    max-width: 500px;
+    margin-top: 200px;
+}
+
+.depoimento-texto h3 {
+    font-size: 2rem;
+}
+
+.depoimento-texto p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,104 @@
+.titulo {
+    background-image: url(../../img/espaco1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.opacidade-um {
+    background-color: rgba(255, 255, 255, 0.6)
+
+}
+
+.titulo-h1 h1 {
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 3rem;
+    z-index: 2;
+    opacity: 1;
+}
+
+.esquerda, .direita {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.direita {
+    text-align: right;
+}
+
+.esquerda img {
+    max-width: 870px;
+}
+
+.opacity-two {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+
+
+.texto-direita {
+    
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.opacity-three {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.texto-esquerda {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.direita img {
+    max-width: 870px;
+    
+}
+
+.escuro {
+    background: #1E1E1E;
+}
+
+.opacity-four {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+.opacity-five {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.texto-escuro {
+    color: #000;
+}
+
+.no-marg {
+    margin-bottom: 0;
+}
+

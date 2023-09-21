@@ -1,0 +1,38 @@
+.titulo-dois {
+    background-image: url(../../img/sobre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.opacidade-sobre {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.titulo-h1-sobre {
+    color: #FFB800;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 2rem;
+    z-index: 2;
+    opacity: 1;
+}
+
+.sobre-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sobre-main img {
+    margin-left: 90px;
+}
+
+.sobre-main p {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}

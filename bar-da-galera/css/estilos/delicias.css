@@ -1,0 +1,37 @@
+.delicias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+
+.delicias h1 {
+    width: 100vw;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.delicia-item img {
+    max-width: 250px;
+
+}
+
+.delicia-item {
+    margin-right: 100px;
+}
+
+.delicia-item h3 {
+    position: relative;
+    margin-left: 30px;
+}
+
+.delicia-item h3::before {
+    content: "";
+    width: 25px;
+    height: 8px;
+    background: #FFB800;
+    position: absolute;
+    top: 8px;
+    left: -30px;
+}
